@@ -26,11 +26,18 @@ class Fila{
             return true;
         else
             return false; 
-
             teste logico manual - linha 31
         */
 
         return this.itens.length == 0;
+    }
+
+    first() {
+        return this.itens[0];
+    }
+
+    last() {
+        return this.itens[this.itens.length - 1];
     }
 
     //reescrevendo metodo toString();
